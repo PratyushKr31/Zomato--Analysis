@@ -1,0 +1,51 @@
+2025-07-29 23:45:16,803 - INFO - Plots directory created/confirmed at: plots
+2025-07-29 23:45:16,803 - ERROR - File 'Zomato-data-.csv' not found.
+2025-07-29 23:45:28,371 - INFO - Plots directory created/confirmed at: plots
+2025-07-29 23:45:28,371 - ERROR - File 'Zomato-data-.csv' not found.
+2025-07-29 23:46:31,667 - INFO - Plots directory created/confirmed at: plots
+2025-07-29 23:46:31,677 - INFO - Dataset loaded successfully. Shape: (148, 7)
+2025-07-29 23:46:31,677 - INFO - Initial DataFrame:
+                    name online_order book_table   rate  votes  approx_cost(for two people) listed_in(type)
+0                  Jalsa          Yes        Yes  4.1/5    775                          800          Buffet
+1         Spice Elephant          Yes         No  4.1/5    787                          800          Buffet
+2        San Churro Cafe          Yes         No  3.8/5    918                          800          Buffet
+3  Addhuri Udupi Bhojana           No         No  3.7/5     88                          300          Buffet
+4          Grand Village           No         No  3.8/5    166                          600          Buffet
+2025-07-29 23:46:31,677 - INFO - Missing values:
+name                           0
+online_order                   0
+book_table                     0
+rate                           0
+votes                          0
+approx_cost(for two people)    0
+listed_in(type)                0
+2025-07-29 23:46:31,677 - INFO - Cleaned DataFrame:
+                    name online_order book_table  rate  votes  approx_cost(for two people) listed_in(type)
+0                  Jalsa          Yes        Yes   4.1    775                          800          Buffet
+1         Spice Elephant          Yes         No   4.1    787                          800          Buffet
+2        San Churro Cafe          Yes         No   3.8    918                          800          Buffet
+3  Addhuri Udupi Bhojana           No         No   3.7     88                          300          Buffet
+4          Grand Village           No         No   3.8    166                          600          Buffet
+2025-07-29 23:46:31,677 - INFO - Data types:
+name                             object
+online_order                   category
+book_table                       object
+rate                            float64
+votes                             int64
+approx_cost(for two people)       int64
+listed_in(type)                  object
+2025-07-29 23:46:31,677 - INFO - Restaurant(s) with maximum votes (4884):
+                 name  votes listed_in(type)
+38  Empire Restaurant   4884           other
+2025-07-29 23:46:31,687 - INFO - T-test for ratings (Online vs. No Online): stat=6.0105, p-value=0.0000
+2025-07-29 23:46:31,687 - INFO - Significant difference in ratings (p<0.05).
+2025-07-29 23:46:34,681 - INFO - Saved restaurant type count plot.
+2025-07-29 23:46:39,767 - INFO - Saved votes by restaurant type plot.
+2025-07-29 23:46:41,125 - INFO - Saved rating histogram.
+2025-07-29 23:46:41,186 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-07-29 23:46:41,193 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-07-29 23:46:42,393 - INFO - Saved cost count plot.
+2025-07-29 23:46:44,326 - INFO - Saved rating by online order plot.
+2025-07-29 23:46:46,348 - INFO - Saved heatmap.
+2025-07-29 23:46:47,728 - INFO - Saved average rating by type plot.
+2025-07-29 23:46:49,161 - INFO - Saved votes vs. rating plot.
