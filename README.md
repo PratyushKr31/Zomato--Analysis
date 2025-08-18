@@ -65,4 +65,5 @@ zomato-analysis/
 MIT License - see [LICENSE](LICENSE) for details.
 
 ## Author
-[Your Name] - [Your GitHub/LinkedIn Profile]
+PRATYUSH KUMAR - https://github.com/PratyushKr31
+
